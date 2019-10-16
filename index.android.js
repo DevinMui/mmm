@@ -10,9 +10,9 @@ import {
 var Sound = require('react-native-sound');
 // import Sound from 'react-native-sound';
 
-let faggot = [];
+let I1iiI1I1I1IiiiI1Ii = [];
 for(var i=0;i<100;i++){
-	faggot.push(new Sound('mmm.mp3', Sound.MAIN_BUNDLE, (error)=>{
+	I1iiI1I1I1IiiiI1Ii.push(new Sound('mmm.mp3', Sound.MAIN_BUNDLE, (error)=>{
 	}));
 }
 
@@ -25,11 +25,11 @@ export default class mmm extends Component {
 	}
 
 	_onPress(){
-		faggot[this.times].play();
+		I1iiI1I1I1IiiiI1Ii[this.times].play();
 		this.times+=1;
 		if(this.times>99){
 			this.times = 0;
-			faggot[this.times].stop();
+			I1iiI1I1I1IiiiI1Ii[this.times].stop();
 		}
 	}
 
